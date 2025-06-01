@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-image: linear-gradient(LightGreen, #289C73, SeaGreen);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+
+
+
+
+.answer:active{
+    background-color: #83CC1E;
+    box-shadow: 0px 5px 0px 0px #30714c;
+    transform: translateY(4px);
+    transition: 0.3s;
+}
+
+.answer:hover{
+    background-color: #92db2b;
+}
+
+.start-btn:active {
+    background-color: #83CC1E;
+    box-shadow: 0px 5px 0px 0px #30714c;
+    transform: translateY(4px);
+    transition: 0.3s;
+}
+
+.start-btn:hover {
+    background-color: #92db2b;
+}
+
+.question-container {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.question {
+    font-size: 100px;
+    padding: 30px;
+    font-weight: 500;
+}
+
+.answers-row {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.answer {
+    font-size: 50px;
+    border: 1px solid black;
+    border-radius: 10%;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #83CC1E;
+    transition: 0.3s;
+}
+
+.start-btn {
+    margin-top: 10px;
+    font-size: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #83CC1E;
+    transition: 0.3s;
+}
+
+.start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.statistics {
+    height: 120px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
